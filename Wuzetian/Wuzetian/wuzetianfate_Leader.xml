@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wuzetianfate_Leader -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/24/2020 9:19:24 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_WUZETIANFATE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_YONGRENZHIDAO" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_SHENGSHENHUANGDI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_MODAO" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_TONGGUI" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_WUZETIANFATE" Name="LOC_LEADER_WUZETIANFATE_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_WUZETIANFATE" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_QUOTE"/>
+	</LeaderQuotes>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_WUZETIANFATE" CapitalName="LOC_CITY_NAME_LUOYANG" />
+	</CivilizationLeaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YONGRENZHIDAO" Name="LOC_TRAIT_LEADER_YONGRENZHIDAO_NAME" Description="LOC_TRAIT_LEADER_YONGRENZHIDAO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_MODAO" Name="LOC_TRAIT_LEADER_UNIT_MODAO_NAME"/>
+		<Row TraitType="TRAIT_AGENDA_SHENGSHENHUANGDI" Name="LOC_TRAIT_AGENDA_SHENGSHENHUANGDI_NAME" Description="LOC_TRAIT_AGENDA_SHENGSHENHUANGDI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_BUILDING_TONGGUI" Name="LOC_TRAIT_BUILDING_TONGGUI_NAME" Description="LOC_TRAIT_BUILDING_TONGGUI_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_WUZETIANFATE" TraitType="TRAIT_LEADER_YONGRENZHIDAO"/>
+		<Row LeaderType="LEADER_WUZETIANFATE" TraitType="TRAIT_LEADER_UNIT_MODAO"/>
+		<Row LeaderType="LEADER_WUZETIANFATE" TraitType="TRAIT_BUILDING_TONGGUI"/>
+		<Row LeaderType="LEADER_WUZETIANFATE" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_WUZETIANFATE" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+	</LeaderTraits>
+	
+	<Agendas>
+		<Row AgendaType="AGENDA_SHENGSHENHUANGDI" Name="LOC_AGENDA_SHENGSHENHUANGDI_NAME" Description="LOC_AGENDA_SHENGSHENHUANGDI_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_WUZETIANFATE" AgendaType="AGENDA_SHENGSHENHUANGDI"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_SHENGSHENHUANGDI" TraitType="TRAIT_AGENDA_SHENGSHENHUANGDI"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_SHENGSHENHUANGDI" AgendaTwo="AGENDA_BARBARIAN_LOVER"/>
+	</ExclusiveAgendas>
+	<AgendaPreferredLeaders>
+		<Row AgendaType="AGENDA_NUKE_LOVER" LeaderType="LEADER_WUZETIANFATE" PercentageChance="80"/>
+	</AgendaPreferredLeaders>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_SHENGSHENHUANGDI" ModifierId="AGENDA_LIKE_WUZETIANFATE"/>
+		<Row TraitType="TRAIT_AGENDA_SHENGSHENHUANGDI" ModifierId="AGENDA_DISS_WUZETIANFATE"/>
+	</TraitModifiers>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_WUZETIANFATE" ReligionType="RELIGION_BUDDHISM"/>
+	</FavoredReligions>
+	
+	<!--AGENDA-->
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_LIKE_WUZETIANFATE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQ_LIKE_WUZETIANFATE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DISS_WUZETIANFATE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>REQ_DISS_WUZETIANFATE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AGENDA_LIKE_WUZETIANFATE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LIKE_WUZETIANFATE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_WUZETIAN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LIKE_WUZETIANFATE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_LEADER_WUZETIAN_LIKE_DESCRIPTION</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_DISS_WUZETIANFATE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DISS_WUZETIANFATE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_WUZETIAN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_DISS_WUZETIANFATE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_LEADER_WUZETIAN_DISS_DESCRIPTION</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQ_LIKE_WUZETIANFATE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_DISS_WUZETIANFATE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQ_LIKE_WUZETIANFATE</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_LIKE_WUZETIANFATE</RequirementSetId>
+			<RequirementId>REQUIRES_MET_10_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_LIKE_WUZETIANFATE</RequirementSetId>
+			<RequirementId>REQUIRES_LAGS_GREAT_PEOPLE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_LIKE_WUZETIANFATE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_CULTURE</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>REQ_DISS_WUZETIANFATE</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_DISS_WUZETIANFATE</RequirementSetId>
+			<RequirementId>REQUIRES_MET_10_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_DISS_WUZETIANFATE</RequirementSetId>
+			<RequirementId>REQUIRES_LEADS_GREAT_PEOPLE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_DISS_WUZETIANFATE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LOW_CULTURE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_LIKE_WUZETIANFATE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_DISS_WUZETIANFATE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+	<!--AGENDA-->
+	
+	<!--ai-->
+	<AiListTypes>
+		<Row ListType="WUZETIANFATE_WONDERS"/>
+		<Row ListType="WUZETIANFATE_CIVICS"/>
+		<Row ListType="WUZETIANFATE_TECHS"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="WUZETIANFATE_WONDERS" LeaderType="LEADER_NEROENT" System="Buildings"/>
+		<Row ListType="WUZETIANFATE_CIVICS" LeaderType="LEADER_NEROENT" System="Civics"/>
+		<Row ListType="WUZETIANFATE_TECHS" LeaderType="LEADER_NEROENT" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="WUZETIANFATE_WONDERS" Item="BUILDING_PYRAMIDS" Favored="true"/>
+		<Row ListType="WUZETIANFATE_WONDERS" Item="BUILDING_ORACLE" Favored="true"/>
+		<Row ListType="WUZETIANFATE_WONDERS" Item="BUILDING_FORBIDDEN_CITY" Favored="true"/>
+		<Row ListType="WUZETIANFATE_WONDERS" Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/>
+		<Row ListType="WUZETIANFATE_CIVICS" Item="CIVIC_MYSTICISM" Favored="true"/>
+		<Row ListType="WUZETIANFATE_CIVICS" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="WUZETIANFATE_CIVICS" Item="CIVIC_DIVINE_RIGHT" Favored="true"/>
+		<Row ListType="WUZETIANFATE_CIVICS" Item="CIVIC_GUILDS" Favored="true"/>
+		<Row ListType="WUZETIANFATE_CIVICS" Item="CIVIC_HUMANISM" Favored="true"/>
+		<Row ListType="WUZETIANFATE_CIVICS" Item="CIVIC_CIVIL_ENGINEERING" Favored="true"/>
+		<Row ListType="WUZETIANFATE_CIVICS" Item="CIVIC_OPERA_BALLET" Favored="true"/>
+		<Row ListType="WUZETIANFATE_CIVICS" Item="CIVIC_CLASS_STRUGGLE" Favored="true"/>
+		<Row ListType="WUZETIANFATE_TECHS" Item="TECH_MASONRY" Favored="true"/>
+		<Row ListType="WUZETIANFATE_TECHS" Item="TECH_CURRENCY" Favored="true"/>
+		<Row ListType="WUZETIANFATE_TECHS" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="WUZETIANFATE_TECHS" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="WUZETIANFATE_TECHS" Item="TECH_PRINTING" Favored="true"/>
+	</AiFavoredItems>
+	<!--ai-->
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_WUZETIANFATE" ForegroundImage="IMG_LOADING_FOREGROUND_WZTFate.dds"
+			 BackgroundImage="IMG_LOADING_BACKGROUND_WZTFate.dds"
+			 PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_WUZETIANFATE_TEXT"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_WUZETIANFATE" BackgroundImage="IMG_DIPLOMACY_BACKGROUND_WZTFate.dds"/>
+	</DiplomacyInfo>
+</GameData>

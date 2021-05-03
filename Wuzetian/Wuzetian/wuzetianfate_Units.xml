@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wuzetianfate_Units -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/26/2020 12:31:08 AM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_MODAO" Kind="KIND_UNIT" />
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_MODAO" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MODAO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MODAO" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MODAO" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MODAO" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<TypeTags>
+		<Row Type="UNIT_MODAO" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_MODAO" Tag="CLASS_MODAO"/>
+	</TypeTags>
+
+	<!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+	<Units>
+		<Row UnitType="UNIT_MODAO"
+			 Cost="180"
+			 Maintenance="2"
+			 BaseMoves="2"
+			 BaseSightRange="2"
+			 ZoneOfControl="true"
+			 Domain="DOMAIN_LAND"
+			 Combat="45"
+			 StrategicResource="RESOURCE_IRON"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
+			 AdvisorType="ADVISOR_CONQUEST"
+			 Name="LOC_UNIT_MODAO_NAME"
+			 Description="LOC_UNIT_MODAO_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"
+			 MandatoryObsoleteTech="TECH_COMPOSITES"
+			 PrereqTech="TECH_MILITARY_TACTICS"
+			 TraitType="TRAIT_LEADER_UNIT_MODAO"/>		
+	</Units>
+	<Units_XP2>
+		<Row UnitType="UNIT_MODAO" ResourceCost="20"/>
+	</Units_XP2>
+	<UnitUpgrades>
+		<Row Unit="UNIT_MODAO" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
+	</UnitUpgrades>
+</GameData>

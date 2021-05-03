@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_WUZETIAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_WUZETIAN_256.dds"/>
+		<Row Name="ATLAS_LEADER_WUZETIAN" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_WUZETIAN_80.dds"/>
+		<Row Name="ATLAS_LEADER_WUZETIAN" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_WUZETIAN_64.dds"/>
+		<Row Name="ATLAS_LEADER_WUZETIAN" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_WUZETIAN_55.dds"/>
+		<Row Name="ATLAS_LEADER_WUZETIAN" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_WUZETIAN_50.dds"/>
+		<Row Name="ATLAS_LEADER_WUZETIAN" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_WUZETIAN_48.dds"/>
+		<Row Name="ATLAS_LEADER_WUZETIAN" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_WUZETIAN_45.dds"/>
+		<Row Name="ATLAS_LEADER_WUZETIAN" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_WUZETIAN_32.dds"/>
+		
+		<Row Name="ATLAS_UNIT_MODAO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_MODAO_256.dds"/>
+		<Row Name="ATLAS_UNIT_MODAO" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_MODAO_80.dds"/>
+		<Row Name="ATLAS_UNIT_MODAO" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_MODAO_50.dds"/>
+		<Row Name="ATLAS_UNIT_MODAO" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_MODAO_38.dds"/>
+		<Row Name="ATLAS_UNIT_MODAO" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_MODAO_32.dds"/>
+		<Row Name="ATLAS_UNIT_MODAO" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_MODAO_22.dds"/>
+
+		<Row Name="ATLAS_BUILDING_TONGGUI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_TONGGUI_256.dds"/>
+		<Row Name="ATLAS_BUILDING_TONGGUI" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_TONGGUI_128.dds"/>
+		<Row Name="ATLAS_BUILDING_TONGGUI" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_TONGGUI_80.dds"/>
+		<Row Name="ATLAS_BUILDING_TONGGUI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_TONGGUI_50.dds"/>
+		<Row Name="ATLAS_BUILDING_TONGGUI" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_TONGGUI_38.dds"/>
+		<Row Name="ATLAS_BUILDING_TONGGUI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_TONGGUI_32.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_WUZETIANFATE" Atlas="ATLAS_LEADER_WUZETIAN" index="0"/>
+		<Row Name="ICON_UNIT_MODAO" Atlas="ATLAS_UNIT_MODAO" index="0"/>
+		<Row Name="ICON_UNIT_MODAO_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="32"/>
+		<Row Name="ICON_BUILDING_TONGGUI" Atlas="ATLAS_BUILDING_TONGGUI" index="0"/>
+	</IconDefinitions>
+</GameData>

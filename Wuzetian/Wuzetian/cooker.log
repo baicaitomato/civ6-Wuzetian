@@ -1,0 +1,13 @@
+Starting AssetCooker...
+Argument '--shaders' has been deprecated and is no longer used.
+XLP cook starting...
+C:\Users\sb\Documents\Firaxis ModBuddy\Civilization VI\Wuzetian\Wuzetian\XLPs\wuzetian_fate_dds.xlp
+Opened output file: C:\Users\sb\Documents\My Games\Sid Meier's Civilization VI\Mods\Wuzetian\Platforms\MacOS\BLPs/wuzetian_fate_dds.blp    For XLP: 'C:\Users\sb\Documents\Firaxis ModBuddy\Civilization VI\Wuzetian\Wuzetian\XLPs\wuzetian_fate_dds.xlp'
+Could not load digest key: ''.  Using mod key to sign BLP.
+Starting 'wuzetian_fate_dds'
+Load finished for: 'wuzetian_fate_dds' in 0.049 seconds
+Cook finished for: 'wuzetian_fate_dds' in 0.656 seconds
+Disk write finished for: 'wuzetian_fate_dds' in 0.100 seconds
+Cleanup finished for: 'wuzetian_fate_dds' in 0.006 seconds
+XLP cook completed with success.
+Cook completed in 0.831 seconds

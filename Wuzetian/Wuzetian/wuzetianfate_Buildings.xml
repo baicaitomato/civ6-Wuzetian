@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wuzetian_project -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/26/2020 10:12:48 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_TONGGUI" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_TONGGUI"
+			 Name="LOC_BUILDING_TONGGUI_NAME"
+			 Description="LOC_BUILDING_TONGGUI_DESCRIPTION"
+			 PrereqCivic="CIVIC_FEUDALISM"
+			 PrereqDistrict="DISTRICT_GOVERNMENT"
+			 PurchaseYield="YIELD_GOLD"
+			 Cost="180"
+			 AdvisorType="ADVISOR_GENERIC"
+			 Maintenance="1" 
+			 TraitType="TRAIT_BUILDING_TONGGUI"
+			 UnlocksGovernmentPolicy="False" 
+			 GovernmentTierRequirement="Tier1"/>		
+	</Buildings>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_TONGGUI" ModifierId="BUILDING_TONGGUI_LOYAL"/>
+		<Row BuildingType="BUILDING_TONGGUI" ModifierId="BUILDING_TONGGUI_AMENITY"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>BUILDING_TONGGUI_LOYAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_TONGGUI_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>BUILDING_TONGGUI_LOYAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_TONGGUI_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wuzetianfate_Projects -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/26/2020 11:36:20 PM -->
+<GameData>
+	<Types>
+		<Row Type="PROJECT_QINGJUNRUWENG" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_QINGJUNRUWENG" 
+			 Name="LOC_PROJECT_QINGJUNRUWENG_NAME" 
+			 ShortName="LOC_PROJECT_QINGJUNRUWENG_SHORT_NAME" 
+			 Description="LOC_PROJECT_QINGJUNRUWENG_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_GOVERNMENT"
+			 Cost="225" 
+			 AdvisorType="ADVISOR_GENERIC"/>
+	</Projects>
+	<Projects_XP2>
+		<Row ProjectType="PROJECT_QINGJUNRUWENG"/>
+	</Projects_XP2>
+	<Project_BuildingCosts>
+		<Row ProjectType="PROJECT_QINGJUNRUWENG" ConsumedBuildingType="BUILDING_TONGGUI"/>
+	</Project_BuildingCosts>
+</GameData>

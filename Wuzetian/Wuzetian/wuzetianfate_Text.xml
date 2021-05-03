@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wuzetianfate_Text -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/24/2020 9:20:29 PM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LOADING_INFO_LEADER_WUZETIANFATE_TEXT" Language="zh_Hans_CN">
+			<Text>中国史上唯一的女帝。[NEWLINE]对他人的态度骄傲自大，举动极端任性妄为。[NEWLINE]彻头彻尾喜欢豪华铺张的童女。[NEWLINE]「唔呵呵～，朕当然应该比任何人都要奢华闪耀吧～？[NEWLINE]……这个暂且不论，不准你放肆地称呼朕为童女。 你这蠢货！」</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_WUZETIANFATE_NAME" Language="zh_Hans_CN">
+			<Text>武则天</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_YONGRENZHIDAO_NAME" Language="zh_Hans_CN">
+			<Text>用人之道</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_YONGRENZHIDAO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有拥有至少1个独立区域的城市加1 [ICON_GreatPerson] 所有伟人点数。这个加成在城市 [ICON_CITIZEN] 人口大于等于5点、10点时为2 [ICON_GreatPerson] 所有伟人点数、4 [ICON_GreatPerson] 所有伟人点数。每激活一次伟人，当前正在研发的科技增加20%完成度。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_MODAO_NAME" Language="zh_Hans_CN">
+			<Text>陌刀兵</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_MODAO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中国中世纪特色抗骑兵单位。[NEWLINE]对抗骑兵时额外+5 [ICON_Strength] 攻击力。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_QUOTE" Language="zh_Hans_CN">
+			<Text>有才之人就该被重用，无才之人自然该居于能人之下。和出身家世无关，就该这样。……虽然有很多人不明白。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_MODAO_NAME" Language="zh_Hans_CN">
+			<Text>陌刀兵</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_SHENGSHENHUANGDI_NAME" Language="zh_Hans_CN">
+			<Text>圣神皇帝</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_SHENGSHENHUANGDI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会尽量扩张版图，招聘伟人且维持高文化。喜欢不与之争夺 [ICON_GreatPerson] 伟人以及高文化收入的文明。讨厌夺走 [ICON_GreatPerson] 伟人且低文化收入的文明。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_KANGQIBING_NAME" Language="zh_Hans_CN">
+			<Text>对抗骑兵单位</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_KANGQIBING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与骑兵单位作战时+5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+
+		<Row Tag="LOC_MODIFIER_MODAO_KANGQIBING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 对抗骑兵单位</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_BUILDING_TONGGUI_NAME" Language="zh_Hans_CN">
+			<Text>酷吏匦</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_BUILDING_TONGGUI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪特色市政广场建筑。所有城市每回合+20忠诚度，-2 [ICON_Amenities] 宜居度。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TONGGUI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市每回合+20忠诚度，-2 [ICON_Amenities] 宜居度。完成项目请君入瓮后可移除此建筑。与市政广场其他建筑没有冲突。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TONGGUI_NAME" Language="zh_Hans_CN">
+			<Text>酷吏匦</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_QINGJUNRUWENG_NAME" Language="zh_Hans_CN">
+			<Text>请君入瓮</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_QINGJUNRUWENG_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>请君入瓮</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_QINGJUNRUWENG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>诛杀所有酷吏。从城市中移除酷吏匦及其全部效果。</Text>
+		</Row>
+		
+		<!--外交-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>……呵呵呵。朕的妖艳让你忍不住了吗？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>还远远不够！无用之人当道，你还不配不上朕的朋友这种称号。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>虽然不能总那么高兴……但你很幸运哦？因为你可以比任何人都近距离观赏朕执行公务！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>嗯嗯，干得漂亮！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>别让朕多费工夫。朕拒绝。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>你是不是小看朕是个小姑娘了？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>你是不是小看朕是个小姑娘了？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>难道还不够努力吗……？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>难道还不够努力吗……？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>嗯，这是理所当然的。甚至可以说做得太晚了。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>别让朕多费工夫。朕拒绝。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>咯呵呵。这是体验朕天理的特别代表团哦！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>无礼到令人震惊！如果朕报上真名，你这家伙一定会双腿瑟瑟发抖哦！？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>头抬的太高了！注意你的举止！（谴责你）</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>朕之名乃武则天。圣神皇帝闪亮登场的说！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>朕之名乃武则天。圣神皇帝闪亮登场的说！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>你可看到朕的江山是如此壮阔吗？咕呼呼～！作为奖赏，就准许你和朕交换都城的位置吧！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>偶尔去看看民间的样子，也是为政者的职责。你的国家让朕很感兴趣哦？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>无聊，好无聊啊～。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>唔，逐渐恢复朕的威信了。身为皇帝，就该这样才对。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_WUZETIANFATE_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您没有违反武则天的议程）</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>无文少才，昏庸无道...朕真为你的子民心痛。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_WUZETIANFATE_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您违反了武则天的议程）</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>高兴吧！朕要和你结为盟友！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>可憎的并非你，而是你内心的罪！好好反省你的罪吧。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>哭也已经晚了！喵哈哈——！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>朕要求重新来过！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>可以。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>朕拒绝。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>朕要借道于此。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>你的军队不过如此，是在朕面前炫耀吗？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>可别忘了对朕的崇敬哦！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_WUZETIANFATE_ANY" Language="zh_Hans_CN">
+			<Text>呜！？喂！</Text>
+		</Row>
+		<!--...-->
+		
+		<!--百科-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_TITLE" Language="zh_Hans_CN">
+			<Text>武则天</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_SUBTITLE" Language="zh_Hans_CN">
+			<Text>武曌</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>武氏本名无记载，为皇太后临朝称制后改名曌，取日月当空之意。优先顺口的话，自称「武则天」。这是基于死后谥号「则天大圣皇后」而来的。她本人则好像喜欢登上皇位时的尊号「圣神皇帝」。武则天是中国历史上唯一的女皇帝，也是中国历史上上位年级最大和寿命最长的皇帝之一。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>武则天祖籍并州文水县，但她的的出生年份、地点、本名，史书均无明确记载。中国历史上的几部史书对此各持己见，目前证据最为充分的说法是武则天出生于洛阳。武则天的父亲曾是木材商人，后因散尽家私豪赌捐助唐高祖李渊反隋而一跃成为唐朝开国功臣；母亲是前朝贵族，喜欢文史胜过针线。年幼的武则天被父母所影响（刨去那些后来的帝王神话），相比同时代的小姐们更富有文韬武略。但平和的生活没有持续很久：在她十二岁那年，她的父亲便去世了，她的两个哥哥开始处处欺压武则天母女。后又过了两年，武则天的美貌和文采传到了当时的皇帝（唐太宗李世民）耳边，唐太宗对她大有赏识，传唤招武则天入宫，十四岁的武则天就此踏入了她一生中最大的舞台。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>实际上，成为皇帝的妃子在当时并不是一件轻松活——古代皇帝后宫佳丽三千——在后宫中得不到皇帝宠爱而终老一生是常有之事。武则天的母亲作为前朝贵族，对此中门道更是了然于胸，舍不得她冒这个险；但十四岁的武则天不这么想，离开家门之前回眸一笑，留下一句豪言壮语：见天子庸知非福？（谁能知道见皇帝会不是一件好事呢？）。其胆识可见一斑。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>但武则天入宫后，她的张扬勇猛并未戳到唐太宗的好球区，很快就被冷落了。她曾尝试学习书法（后来还的确成为一代书法大家）、学习乐舞（也颇有成就），都没能得到唐太宗的芳心。唐太宗去世后，武则天按照当时惯例被安排到感业寺出家为尼。但武则天并未就此屈服，早在唐太宗生病之时就为自己安排好了后路，她把赌注压在了当时的第三继承人——李治上。李治在照顾唐太宗时对武则天产生了爱慕之情。恰好当时第一、第二继承人因为政治斗争双双失去继承权，李治便顺理成章成为了皇帝——但是君王的感情往往是不牢靠的——在江山面前，美人排在了第二位。武则天并没能避免前往感业寺。在感业寺中，她写出一首情诗《如意娘》（据说让李白也自愧不如），送到了李治面前。后来李治在为唐太宗忌日上香时来到了感业寺，和武则天执手相泣，为这段感情埋下伏笔。恰逢后宫皇后和嫔妃争宠，皇后听闻感业寺中有一位尼姑让皇帝如此上心，便把武则天接回宫内作为牵制。二十八岁的武则天得以得到第二次机会。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>相比刚入宫，武则天除了锋芒毕露又多出几分温柔成熟，这种姐姐般的性格正是李治所喜欢的（武则天比李治大约四岁）。入宫后武则天立刻广结人脉，得到了大量眼线，而前朝后人的身份更让皇后放松了警惕。在产下一子（名字叫做李弘）后，武则天在宫内稳固了地位，但武则天目标岂止于此？公元653年，武则天产下一女。她被武则天视为掌上明珠，却在皇后探望过后离奇地去世了。虽然对于幕后史书依然众说纷纭，但不管后世对此如何猜测，这的确让武则天抓到了滴水不漏的皇后的把柄。李治心中的天平开始向武则天倾斜，立武则天为皇后这件事排上了议程。武则天得到了李治的支持，下一步就是试探官员们的态度。但皇后身居高位，又为世家大族，武则天和李治自然碰了一鼻子灰。但武则天并非毫无收获：这件事让李治对自己处处受制的局面非常不满，他下定决心要夺回贵族手中的权力，而武则天也感受到官员们给予他的阻力——他们所要的结果达成一致了。公元655年，在暗中拉拢一些支持他们的势力并借此打压一些官员贵族之后，武则天于争议中登上了皇后宝座。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>武则天成为皇后之后，权力得到了提升，那些固执的贵族和曾经打压过她的人自然逃不过清理。清理之后的空闲官位自然就落到了武则天着重拉拢的底层官员手中。随着自己势力一步步壮大，武则天的野心也一步步提高。但作为政治家——首要就是不能操之过急，于是武则天提出了一系列政策（建言十二条）以拉拢民心。随着李治的身体逐渐变差，武则天开始着手进行一系列铺垫。随着她比较软弱的大儿子李弘因为肺结核去世，她的二儿子李贤就成了继承人，更强硬的太子成了她摄取政治权力的阻碍。但这一重阻碍突然掀起了波澜——李贤被曝出不是武则天亲生的。非一家之人，武则天哪里会留手？在长久的等待之后，很快李贤就露出来了破绽。李贤的同性情人（在当时并不稀奇）招认了一件大事：自己是杀害皇帝身边的先知的凶手。但是办案不能只有证词，这证据自然就要去李贤的家中去查了——但这一查就查出了李贤的家中非法保有大量武器装备——李贤这就有了谋反嫌疑。武则天抓住机会，“大义灭亲”，把李贤和与武则天作对的利益集团处理了。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>现在武则天面前的只有皇帝李治了。不论是否忍心下手，李治身患重病，武则天也等得起——问题在于李治身后的李姓利益集团。武则天自然不希望李治在旧势力根据地首都长安去世，而唐朝的另一个都城、武则天代表的新兴势力的洛阳能给她更多的操作空间。公元683年，恰逢关中大旱，一为了祈福，二为了洛阳更多的粮食储备，李治与武则天来到洛阳。同年，皇帝李治去世，不信任官员、不放心太子的他立遗嘱让武则天辅佐新皇帝参政。在太子服丧不能执政的二十七天里，武则天在旧贵族鞭长莫及之地，于短短时间内把上下官员全部安插上自己的人手。新皇帝上任之前就被架空了，废去皇帝也不过轻而易举；但武则天并没有操之过急，她先是废去三儿子，让自己的四儿子成为新皇帝，随后平定叛乱并以此为由把敌对势力牵连进去一并清除。公元686年，武则天开创铜匦（一种类似邮筒的铜箱子）制度，规定任何人都可以把告密信和自荐信投入到这个铜匦之中；还起任一批酷吏（刑官），被告者一旦被投入狱，酷吏们则使用各种酷刑审讯，能活着出狱的百无一二。敌对官员们便因各种莫须有的罪名落入酷吏手中，在棍棒下承认罪名，失去政治权力。现在，终于没有什么能阻拦她称帝了。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>公元690年，武则天称帝，定都于洛阳。但她的传奇还远远没有结束——暴力只能让人恐惧，并不能让人信服——武则天还需要更有力的手段。酷吏曾是武则天的助力，现在这些只会拷问的小人对她而言已经失去了作用，还会落下把柄。于是，她先授意最有势力的酷吏把其他酷吏以常用手段消除威胁，随后借己方势力的告密把其消灭，结束了酷吏统治。同时，为了让空出的官位变成自己的势力，武则天改变了以往官员考试着重考察背诵经典的套路（在印刷术不发达的当时，经典书籍基本都是贵族私藏），转变为考察当下时政热点的解决方案，使大批寒门子弟进入官场。而且——铜匦不止可以让人告密，还接受自荐信。任何人在自荐后都可以上岗试官，如果才能相符者便可继续，才能不符或借此行便者多被流放。这种宽进严出的制度也极大激活了政府的活力（可能也是世界上最早的试用期制度）。因为武则天文采过人，也大幅度带动了人们学文习武的风气。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>但晚年的武则天显然失去对政府的掌控力。虽然据说她年近八十貌如十八，但她的身体已经不能支持她继续亲力亲为了。公元698年，武则天又立三儿子（改名叫李显）为第一继承人。公元705年，武则天病倒，李显率兵进入武则天寝室，武则天被迫让位，新皇帝上位并定都长安。同年，武则天去世。她和她的丈夫李治合葬，西方是唐高宗李治的碑，由武则天亲笔题词；东方是武则天的碑，高大巍峨的石碑上一个字也没有。这块碑本身也充满争议：有人说这是武则天不敢写自己的过去，有人说这是武则天写不下自己的功绩，有人说这是武则天不屑于写自己。就像武则天的历史地位一样，谁能确定这块碑的历史呢？武则天想到那些对自己指点品论之人，会不会心怀蔑视呢？无论如何，此地唯一碑，任由后人评说。</Text>
+		</Replace>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>武则天在用人上和保持忠诚度上很有一套。获取伟人的速度取决于她所拥有的城市，有时候比佩德罗二世还要快。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WUZETIANFATE_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>武则天的中国更偏向于扩大自己的有效领土；她能从城市中获取大量的伟人收益，并借助长城、各种特色兵种和恐怖统治抵御各种入侵。使用朝代更替能力，他们甚至能从提升中获得更多收益。如果能充分利用这些能力，他们在两种进展树上的发展会非常快。</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODAO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>陌刀兵是当时唐朝的精英重步兵部队，部分陌刀兵兼任队伍中的弩手。陌刀自西汉斩马剑发展而来，又吸收了汉露陌刀及六朝长刀的形制与冶炼技术。陌刀极为沉重，长约3米重约10公斤，砍杀效果极佳，在战争中主要用来砍杀敌骑兵并稳住阵型，而且由于其威慑力大，又被用于文武高官及藩镇的仪卫。后来由于工艺繁多、士兵要求严格而弃用，多被长斧长刀代替。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

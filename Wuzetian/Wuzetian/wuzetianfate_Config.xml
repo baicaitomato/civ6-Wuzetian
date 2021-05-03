@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- wuzetianfate_Config -->
+<!-- Author: sb -->
+<!-- DateCreated: 5/24/2020 9:18:59 PM -->
+<GameData>
+	<Players>
+		<Row CivilizationType="CIVILIZATION_CHINA" 
+			 LeaderType="LEADER_WUZETIANFATE" 
+			 CivilizationName="LOC_CIVILIZATION_CHINA_NAME" 
+			 CivilizationIcon="ICON_CIVILIZATION_CHINA" 
+			 LeaderName="LOC_LEADER_WUZETIANFATE_NAME" 
+			 LeaderIcon="ICON_LEADER_WUZETIANFATE" 
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" 
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION" 
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA" 
+			 LeaderAbilityName="LOC_TRAIT_LEADER_YONGRENZHIDAO_NAME" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_YONGRENZHIDAO_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_WUZETIANFATE"
+			 PortraitBackground="IMG_SELECTION_FOREGROUND_WZTFate"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_CHINA"
+			 LeaderName="LOC_LEADER_WUZETIANFATE_NAME"
+			 LeaderIcon="ICON_LEADER_WUZETIANFATE"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_YONGRENZHIDAO_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_YONGRENZHIDAO_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_WUZETIANFATE"
+			 PortraitBackground="IMG_SELECTION_FOREGROUND_WZTFate"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
+			 CivilizationIcon="ICON_CIVILIZATION_CHINA"
+			 LeaderName="LOC_LEADER_WUZETIANFATE_NAME"
+			 LeaderIcon="ICON_LEADER_WUZETIANFATE"
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME"
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION"
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA"
+			 LeaderAbilityName="LOC_TRAIT_LEADER_YONGRENZHIDAO_NAME"
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_YONGRENZHIDAO_DESCRIPTION"
+			 LeaderAbilityIcon="ICON_LEADER_WUZETIANFATE"
+			 PortraitBackground="IMG_SELECTION_FOREGROUND_WZTFate"/>
+	</Players>
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="UNIT_MODAO"
+			 Icon="ICON_UNIT_MODAO"
+			 Name="LOC_UNIT_MODAO_NAME"
+			 Description="LOC_UNIT_MODAO_DESCRIPTION"
+			 SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="IMPROVEMENT_GREAT_WALL"
+			 Icon="ICON_IMPROVEMENT_GREAT_WALL"
+			 Name="LOC_IMPROVEMENT_GREAT_WALL_NAME"
+			 Description="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION"
+			 SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="BUILDING_TONGGUI"
+			 Icon="ICON_BUILDING_TONGGUI"
+			 Name="LOC_BUILDING_TONGGUI_NAME"
+			 Description="LOC_TRAIT_BUILDING_TONGGUI_DESCRIPTION"
+			 SortIndex="30"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="UNIT_MODAO"
+			 Icon="ICON_UNIT_MODAO"
+			 Name="LOC_UNIT_MODAO_NAME"
+			 Description="LOC_UNIT_MODAO_DESCRIPTION"
+			 SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="IMPROVEMENT_GREAT_WALL"
+			 Icon="ICON_IMPROVEMENT_GREAT_WALL"
+			 Name="LOC_IMPROVEMENT_GREAT_WALL_NAME"
+			 Description="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION"
+			 SortIndex="20"/>
+		<Row Domain="Players:Expansion1_Players"
+			 CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="BUILDING_TONGGUI"
+			 Icon="ICON_BUILDING_TONGGUI"
+			 Name="LOC_BUILDING_TONGGUI_NAME"
+			 Description="LOC_TRAIT_BUILDING_TONGGUI_DESCRIPTION"
+			 SortIndex="30"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="UNIT_MODAO"
+			 Icon="ICON_UNIT_MODAO"
+			 Name="LOC_UNIT_MODAO_NAME"
+			 Description="LOC_UNIT_MODAO_DESCRIPTION"
+			 SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="IMPROVEMENT_GREAT_WALL"
+			 Icon="ICON_IMPROVEMENT_GREAT_WALL"
+			 Name="LOC_IMPROVEMENT_GREAT_WALL_NAME"
+			 Description="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION"
+			 SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_CHINA"
+			 LeaderType="LEADER_WUZETIANFATE"
+			 Type="BUILDING_TONGGUI"
+			 Icon="ICON_BUILDING_TONGGUI"
+			 Name="LOC_BUILDING_TONGGUI_NAME"
+			 Description="LOC_TRAIT_BUILDING_TONGGUI_DESCRIPTION"
+			 SortIndex="30"/>
+	</PlayerItems>
+</GameData>

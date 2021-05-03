@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Wuzetian_fate</Name>
+    <Guid>db7b8480-4332-499f-9b03-09307aa4fb69</Guid>
+    <ProjectGuid>55b186e6-157d-4715-899c-899cfabeeab5</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Wuzetian Assassin of the Nightless City</Teaser>
+    <Description>Wuzetian Assassin of the Nightless City</Description>
+    <Authors>sb</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Wuzetian</AssemblyName>
+    <RootNamespace>Wuzetian</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="wuzetianfate_UpdateConfig"><File>wuzetianfate_Config.xml</File></UpdateDatabase><UpdateText id="wuzetianfate_UpdateText"><File>wuzetianfate_Text.xml</File></UpdateText><UpdateIcons id="wuzetianfate_UpdateIcon"><File>wuzetianfate_Icons.xml</File><File>wuzetianfate_Color.xml</File></UpdateIcons><UpdateArt id="wuzetianfate_UpdateArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="wuzetianfate_UpdateFrontColor"><File>wuzetianfate_FrontColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="wuzetianfate_UpdateData"><File>wuzetianfate_Leader.xml</File><File>wuzetianfate_Units.xml</File><File>wuzetianfate_Modifiers.sql</File><File>wuzetianfate_Buildings.xml</File><File>wuzetianfate_Projects.xml</File><File>wuzetianfate_Unitabilities.xml</File></UpdateDatabase><UpdateText id="wuzetianfate_UpdateText"><File>wuzetianfate_Text.xml</File></UpdateText><UpdateIcons id="wuzetianfate_UpdateIcon"><File>wuzetianfate_Icons.xml</File></UpdateIcons><UpdateArt id="wuzetianfate_UpdateArt"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="wuzetianfate_UpdateScp"><File>wuzetianfate_Weiren.lua</File></AddGameplayScripts><UpdateColors id="wuzetianfate_UpdateIngameColor"><File>wuzetianfate_FrontColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Wuzetian.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_FrontColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Modifiers.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Projects.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Unitabilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Weiren.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="wuzetianfate_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\wuzetian_fate_dds.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

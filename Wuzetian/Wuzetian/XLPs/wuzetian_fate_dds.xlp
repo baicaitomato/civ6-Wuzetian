@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="wuzetian_fate_dds"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_WUZETIAN_256"/>
+			<m_ObjectName text="ICON_WUZETIAN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_WUZETIAN_32"/>
+			<m_ObjectName text="ICON_WUZETIAN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_WUZETIAN_45"/>
+			<m_ObjectName text="ICON_WUZETIAN_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_WUZETIAN_48"/>
+			<m_ObjectName text="ICON_WUZETIAN_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_WUZETIAN_50"/>
+			<m_ObjectName text="ICON_WUZETIAN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_WUZETIAN_55"/>
+			<m_ObjectName text="ICON_WUZETIAN_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_WUZETIAN_64"/>
+			<m_ObjectName text="ICON_WUZETIAN_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_WUZETIAN_80"/>
+			<m_ObjectName text="ICON_WUZETIAN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DIPLOMACY_BACKGROUND_WZTFate"/>
+			<m_ObjectName text="IMG_DIPLOMACY_BACKGROUND_WZTFate"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LOADING_BACKGROUND_WZTFate"/>
+			<m_ObjectName text="IMG_LOADING_BACKGROUND_WZTFate"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LOADING_FOREGROUND_WZTFate"/>
+			<m_ObjectName text="IMG_LOADING_FOREGROUND_WZTFate"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_SELECTION_FOREGROUND_WZTFate"/>
+			<m_ObjectName text="IMG_SELECTION_FOREGROUND_WZTFate"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MODAO_80"/>
+			<m_ObjectName text="ICON_UNIT_MODAO_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MODAO_22"/>
+			<m_ObjectName text="ICON_UNIT_MODAO_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MODAO_256"/>
+			<m_ObjectName text="ICON_UNIT_MODAO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MODAO_32"/>
+			<m_ObjectName text="ICON_UNIT_MODAO_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MODAO_38"/>
+			<m_ObjectName text="ICON_UNIT_MODAO_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MODAO_50"/>
+			<m_ObjectName text="ICON_UNIT_MODAO_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TONGGUI_128"/>
+			<m_ObjectName text="ICON_BUILDING_TONGGUI_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TONGGUI_256"/>
+			<m_ObjectName text="ICON_BUILDING_TONGGUI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TONGGUI_32"/>
+			<m_ObjectName text="ICON_BUILDING_TONGGUI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TONGGUI_38"/>
+			<m_ObjectName text="ICON_BUILDING_TONGGUI_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TONGGUI_50"/>
+			<m_ObjectName text="ICON_BUILDING_TONGGUI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_TONGGUI_80"/>
+			<m_ObjectName text="ICON_BUILDING_TONGGUI_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
