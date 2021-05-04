@@ -1,4 +1,4 @@
-# civ6-wuzetian
+# civ6-Wuzetian
 文明6武则天mod
 
 上传一下存档
